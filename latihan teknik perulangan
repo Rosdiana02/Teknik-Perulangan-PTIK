@@ -1,0 +1,23 @@
+include <iostream>
+#include <conio.h>
+using namespace std;
+int main?()
+{
+  int f, g, h, i;
+  cout <<" Masukkan Jumlah Barisnya: ";
+  cin >> i;
+  for (f=i; f>=0; f--){
+    for (g=f; g>=0; g--){
+      cout<< " ";
+    }
+    for (h=1; h<=i-f; h++){
+      cout << "*";
+    }
+    for (h=1; h<i-f; h++){
+      cout<<"*";
+    }
+    cout<<endl;
+  }
+  _getch();
+  return 0;
+}
